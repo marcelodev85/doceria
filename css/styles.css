@@ -277,9 +277,71 @@ form input [type=submit] {
 
 }
 
-
 #img11 {
 	background-image: url('../img/galeria12.jpg');
 	margin-right: 0;
 
+}
+
+#sessao-contato {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 50p
+}
+
+
+#form-contato {
+	width: 500px;
+
+}
+
+#form-contato input[type=text],
+#form-contato input[type=email],
+#form-contato textarea {
+	display: block;
+	border: 1px solid #006599;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#form-contato input[type=text]:focus,
+#form-contato input[type=email]:focus,
+#form-contato textare:focus {
+	border-color: #2790c6;
+
+
+
+}
+
+#form-contato textarea {
+	height: 150px;
+
+}
+
+#form-contato::placeholder {
+	color: #2790c6;
+}
+
+#form-contato input[type=submit] {
+	margin-left: 0;
+	font-size: 16px;
+	width: 180px;
+	background-color: #006599;
+	margin-bottom: 150px;
+}
+
+/*footer*/
+
+footer {
+	height: 100px;
+	margin-top: 150px;
+	color: #006599;
+}
+
+footer p {
+
+	text-align: center;
 }
